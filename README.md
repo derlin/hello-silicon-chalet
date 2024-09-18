@@ -1,11 +1,25 @@
 # Silicon Chalet Divio Demo App
 
-This is a simple nginx server with an index.html saying hello and showing the number (and type) of services
-currently attached.
+This is a simple nginx server with an `index.html` saying hello and showing the number (and type) of
+services currently attached.
 
-It was used for a demo during my presentation at Silicon Chalet on the 19th of September. You will
-find the slides of the presentation and a recording of this demo on this repository, in the
-[other](#other) folder.
+It was used for a demo during my presentation at
+[Silicon Chalet](https://www.meetup.com/silicon-chalet/) on the 19th of
+September:
+
+> **I migrated 7,000 applications from PostgreSQL 13 to 15**
+> by Lucy Linder (Divio Technologies AB)
+> 
+> Ever wondered how a small team can migrate 7,000 PostgreSQL databases in just two months without
+> disrupting service? Join me as I share how Divio pulled this off! I'll brush on strategies that
+> made it possible, the challenges we faced, and the extra lengths we went to keep our users' peace
+> of mind unscathed.
+
+You will find the slides of the presentation and a recording of this demo on this
+repository, in the [other](#other) folder:
+
+* [slides](other/2024-09-17_how-we-migrated-7k-postgres-databases_slides.pdf)
+* [demo](other/2024-09-17_deploy-to-divio_demo.mov)
 
 ## Run locally
 
@@ -21,7 +35,7 @@ You can now access the app at http://localhost:8080
 ## Deploy on Divio
 
 The full demo is available in this repo:
-[other/2024-09-17-deploy-to-divio-demo.mov](#other/2024-09-17-deploy-to-divio-demo.mov).
+[other/2024-09-17_deploy-to-divio_demo.mov](other/2024-09-17_deploy-to-divio_demo.mov).
 
 Deploy it on [divio](https://divio.com) easily:
 
